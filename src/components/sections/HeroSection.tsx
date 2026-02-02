@@ -63,7 +63,7 @@ export function HeroSection() {
               {[
                 { value: "500+", label: "Students Trained" },
                 { value: "50+", label: "Partner Schools" },
-                { value: "10+", label: "African Countries" },
+                { value: "8", label: "African Countries" },
               ].map((stat) => (
                 <div key={stat.label}>
                   <div className="text-2xl sm:text-3xl md:text-4xl font-bold font-display">{stat.value}</div>
