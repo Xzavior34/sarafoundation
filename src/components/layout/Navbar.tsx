@@ -156,7 +156,7 @@ export function Navbar() {
               <Link to="/partnership">Partner with Us</Link>
             </Button>
             <Button size="sm" className="glow-effect" asChild>
-              <Link to="/contact">Donate Now</Link>
+              <Link to="/donation">Donate Now</Link>
             </Button>
           </div>
 
@@ -225,7 +225,7 @@ export function Navbar() {
                   <Link to="/partnership" onClick={() => setMobileMenuOpen(false)}>Partner with Us</Link>
                 </Button>
                 <Button className="w-full glow-effect" asChild>
-                  <Link to="/contact" onClick={() => setMobileMenuOpen(false)}>Donate Now</Link>
+                  <Link to="/donation" onClick={() => setMobileMenuOpen(false)}>Donate Now</Link>
                 </Button>
               </div>
             </div>

@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
+import Donation from "./pages/Donation";
 import ProgramCAP from "./pages/programs/CAP";
 import ProgramFLIP from "./pages/programs/FLIP";
 import Partnership from "./pages/Partnership";
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/donation" element={<Donation />} />
           <Route path="/programs/cap" element={<ProgramCAP />} />
           <Route path="/programs/flip" element={<ProgramFLIP />} />
           <Route path="/partnership" element={<Partnership />} />
